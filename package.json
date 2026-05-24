@@ -1,11 +1,10 @@
 {
   "name": "lab11",
   "version": "1.0.0",
-  
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +13,8 @@
     "@jest/globals": "^30.4.1",
     "jest": "^30.4.2",
     "jest-environment-jsdom": "^30.4.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
