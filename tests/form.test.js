@@ -35,5 +35,5 @@ test('поле "Email" должно существовать и иметь ти�
 test('кнопка отправки должна иметь текст "Отправить"', () => {
   const btn = document.getElementById('submit-btn');
   expect(btn).not.toBeNull();
-  expect(btn.textContent).toBe('Отправить');
+  expect(btn.textContent).toBe('Отправить сообщение');
 });
